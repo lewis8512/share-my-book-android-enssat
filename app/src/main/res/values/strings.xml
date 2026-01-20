@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShareMyBook</string>
+
+    <!-- Navigation -->
+    <string name="nav_library">Ma Bibliothèque</string>
+    <string name="nav_loans">Prêts</string>
+    <string name="nav_borrows">Emprunts</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Scanner -->
+    <string name="scan_isbn">Scanner ISBN</string>
+    <string name="scan_qr">Scanner QR Code</string>
+    <string name="scanning">Scan en cours…</string>
+
+    <!-- Library -->
+    <string name="add_book">Ajouter un livre</string>
+    <string name="empty_library">Aucun livre dans votre bibliothèque.\n\nAppuyez sur + pour scanner un ISBN et ajouter un livre.</string>
+    <string name="book_added">Livre ajouté</string>
+    <string name="add_this_book">Ajouter ce livre ?</string>
+    <string name="title_label">Titre: %s</string>
+    <string name="authors_label">Auteur(s): %s</string>
+    <string name="isbn_label">ISBN: %s</string>
+    <string name="add">Ajouter</string>
+    <string name="book_not_found">Livre non trouvé</string>
+    <string name="manual_entry_message">Aucune information trouvée pour cet ISBN.\nVeuillez saisir les informations manuellement :</string>
+    <string name="title_required">Titre *</string>
+    <string name="book_already_exists">Livre déjà présent</string>
+    <string name="duplicate_book_message">%s est déjà dans votre bibliothèque.\n\nVoulez-vous ajouter un autre exemplaire ?</string>
+
+    <!-- Book details -->
+    <string name="title">Titre</string>
+    <string name="authors">Auteur(s)</string>
+    <string name="isbn">ISBN</string>
+    <string name="cover">Couverture</string>
+    <string name="book_details">Détails du livre</string>
+    <string name="back">Retour</string>
+    <string name="cover_of">Couverture de %s</string>
+    <string name="status">Statut</string>
+    <string name="status_lent">Prêté</string>
+    <string name="status_borrowed">Emprunté</string>
+    <string name="status_available">Disponible</string>
+    <string name="book_owner">Propriétaire du livre</string>
+    <string name="generate_return_qr">Générer QR pour retour</string>
+    <string name="scan_return_qr">Scanner le QR pour rendre ce livre</string>
+
+    <!-- Transactions -->
+    <string name="lend_book">Prêter ce livre</string>
+    <string name="return_book">Retourner le livre</string>
+    <string name="borrowed_from">Emprunté à</string>
+    <string name="lent_to">Prêté à</string>
+    <string name="show_qr_code">Afficher QR Code</string>
+    <string name="waiting_borrower">En attente de l\'emprunteur…</string>
+    <string name="transaction_complete">Transaction terminée</string>
+    <string name="transaction_failed">Échec de la transaction</string>
+    <string name="preparing_transaction">Préparation de la transaction…</string>
+    <string name="initializing_transaction">Initialisation de la transaction…</string>
+    <string name="show_qr_to_friend">Présentez ce QR code à votre ami</string>
+    <string name="qr_code">QR Code</string>
+    <string name="waiting_for_scan">En attente du scan…</string>
+    <string name="confirming_transaction">Confirmation de la transaction…</string>
+    <string name="transaction_success">Transaction effectuée avec succès !</string>
+    <string name="loan_success">Livre prêté avec succès !</string>
+    <string name="return_success">Livre récupéré avec succès !</string>
+    <string name="redirecting">Redirection…</string>
+    <string name="error_prefix">Erreur: %s</string>
+    <string name="borrow_book">Emprunter un livre</string>
+    <string name="scan_lender_qr">Scanner le QR code du prêteur</string>
+    <string name="scan_lender_instructions">Demandez au propriétaire du livre d\'afficher son QR code de prêt, puis scannez-le.</string>
+    <string name="scan_qr_button">Scanner le QR code</string>
+    <string name="book_borrowed_message">Livre emprunté : %1$s de %2$s</string>
+    <string name="book_returned_message">Livre rendu : %1$s à %2$s</string>
+    <string name="resetting">Réinitialisation…</string>
+
+    <!-- Loans / Borrows screens -->
+    <string name="empty_loans">Vous n\'avez prêté aucun livre pour le moment.</string>
+    <string name="empty_borrows">Vous n\'avez emprunté aucun livre pour le moment.\n\nAppuyez sur le bouton scan pour scanner le QR code d\'un prêteur.</string>
+    <string name="scan_loan">Scanner un prêt</string>
+
+    <!-- Profile -->
+    <string name="full_name">Nom complet</string>
+    <string name="phone">Téléphone</string>
+    <string name="email">Email</string>
+    <string name="save">Enregistrer</string>
+    <string name="saving">Enregistrement…</string>
+    <string name="profile_saved">Profil enregistré</string>
+    <string name="fill_profile">Veuillez remplir votre profil</string>
+    <string name="welcome">Bienvenue !</string>
+    <string name="my_profile">Mon Profil</string>
+    <string name="profile_initial_message">Pour utiliser l\'application, veuillez d\'abord configurer votre profil.\nCes informations sont nécessaires pour prêter ou emprunter des livres.</string>
+    <string name="profile_message">Ces informations sont nécessaires pour prêter ou emprunter des livres.</string>
+    <string name="uuid_label">UUID: %s</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_name_title">Comment vous appelez-vous ?</string>
+    <string name="onboarding_name_subtitle">Votre nom sera visible par les personnes avec qui vous échangez des livres.</string>
+    <string name="onboarding_phone_title">Votre numéro de téléphone</string>
+    <string name="onboarding_phone_subtitle">Pour que vos contacts puissent vous joindre facilement.</string>
+    <string name="onboarding_email_title">Votre adresse email</string>
+    <string name="onboarding_email_subtitle">Pour recevoir des notifications sur vos prêts et emprunts.</string>
+    <string name="step_of">Étape %1$d sur %2$d</string>
+    <string name="name_placeholder">Jean Dupont</string>
+    <string name="name_error">Le nom ne doit contenir que des lettres, espaces ou tirets</string>
+    <string name="phone_invalid_country">Numéro invalide pour le pays sélectionné</string>
+    <string name="email_placeholder">jean.dupont@email.com</string>
+    <string name="email_invalid">Adresse email invalide</string>
+    <string name="next">Suivant</string>
+    <string name="finish">Terminer</string>
+
+    <!-- Phone field -->
+    <string name="country">Pays</string>
+    <string name="choose_country">Choisir le pays</string>
+    <string name="phone_placeholder_fr">0X XX XX XX XX</string>
+    <string name="phone_placeholder_generic">Numéro</string>
+    <string name="phone_invalid">Numéro de téléphone invalide</string>
+    <string name="valid">Valide</string>
+    <string name="invalid">Invalide</string>
+    <string name="choose_country_title">Choisir un pays</string>
+    <string name="search">Rechercher…</string>
+    <string name="selected">Sélectionné</string>
+    <string name="close">Fermer</string>
+
+    <!-- Errors -->
+    <string name="error">Erreur</string>
+    <string name="error_network">Erreur réseau</string>
+    <string name="error_camera">Erreur d\'accès à la caméra</string>
+    <string name="permission_camera_required">Permission caméra requise</string>
+    <string name="error_loading_book">Erreur de chargement</string>
+    <string name="error_api">Erreur de connexion à l\'API (code %d)</string>
+    <string name="error_server">Erreur serveur (code %d)</string>
+    <string name="error_timeout">Délai d\'attente dépassé. Assurez-vous que l\'emprunteur a bien scanné le QR code et que les deux téléphones sont connectés à Internet.</string>
+    <string name="error_unknown">Une erreur inattendue s\'est produite</string>
+    <string name="error_book_not_found">Livre introuvable</string>
+    <string name="error_profile_required">Veuillez d\'abord configurer votre profil</string>
+    <string name="error_profile_incomplete">Veuillez compléter votre profil (nom, téléphone, email)</string>
+    <string name="error_not_owner">Vous n\'êtes pas le propriétaire de ce livre</string>
+    <string name="error_already_lent">Ce livre est déjà prêté</string>
+    <string name="error_not_lent">Ce livre n\'est pas prêté</string>
+    <string name="error_isbn_empty">L\'ISBN ne peut pas être vide</string>
+    <string name="error_book_info_incomplete">Informations du livre incomplètes</string>
+    <string name="error_title_required">Le titre est obligatoire</string>
+    <string name="error_name_required">Le nom complet est requis</string>
+    <string name="error_phone_required">Le numéro de téléphone est requis</string>
+    <string name="error_phone_invalid">Le numéro de téléphone n\'est pas valide</string>
+    <string name="error_email_required">L\'email est requis</string>
+    <string name="error_email_invalid">Format d\'email invalide</string>
+    <string name="error_transaction_borrower_missing">La transaction a été acceptée mais les informations de l\'emprunteur n\'ont pas pu être récupérées. Veuillez réessayer.</string>
+    <string name="error_loading">Erreur de chargement: %s</string>
+
+    <!-- Actions -->
+    <string name="cancel">Annuler</string>
+    <string name="ok">OK</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Modifier</string>
+    <string name="delete_book_title">Supprimer ce livre ?</string>
+    <string name="delete_book_message">Voulez-vous vraiment supprimer « %s » de votre bibliothèque ?</string>
+</resources>
